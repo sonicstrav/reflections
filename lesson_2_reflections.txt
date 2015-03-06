@@ -1,8 +1,18 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-A .git folder is added. A commit is not made initially - it needs to be done manually. Files are not tracked - the files to be tracked are added from the  working directory to the staging area using git add. On commit the files from 
-the staging area are moved into the repository.
-----------------------------------------------------------------------------
+A .git folder is added. A commit is not made initially - it needs to be done manually.
+Files are not tracked - the files to be tracked are added from the working directory
+to the staging area using git add. On commit the files from 
+the staging area are moved into the repository
+--------------------------------------------------------------------------------------
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+We can choose which files we want to track from the working directory by placing them
+in the staging area. Then all the files from the staging area can be committed 
+together when we commit.
+--------------------------------------------------------------------------------------
+
 
 
 
