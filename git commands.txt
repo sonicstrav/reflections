@@ -19,7 +19,7 @@ Get colour on the diff output
 git config  --global color.ui auto
 
 Show the commits made in this repository, starting with the most recent
------------
+-----------------------------------------------------------------------
 git log
 
 Temporarily reset all files in a directory to their state at the time of a specific commit
