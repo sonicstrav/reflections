@@ -1,0 +1,58 @@
+Viewing a diff between two version of a file was helpful as
+it removed content that was the same, focusing only the 
+code that was different which would have been far more difficult
+if the all of the code had to be waded through. Didn't know
+the fc utilty was available on Windows.
+Usage: fc oldfilename newfilename
+
+Useful to go back to previous code that sometimes might be
+better than new code that was tried out maybe didn't work
+out as well. Also, gives a path of development of the code.
+
+-----------------------------------------------------------------------------------
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros: Commit when a logical change has taken place, judge when to do
+a commit at the appropriate time (neither too many code changes, or 
+unrelated code change, or multiple commits of trivial code changes 
+related to the same bug.
+
+Cons: May forget to do the commit e.g working on code for a week and
+not committing it
+
+-----------------------------------------------------------------------------------
+Why do you think some version control systems, like Git, allow saving multiple files
+ in one commit, while others, like Google Docs, treat each file separately?
+
+Git is a version control system for coding projects which usually use multiple 
+files, all changes need to be tracked thoughout all the files used in the project
+and all need to be saved at the same time.
+
+-----------------------------------------------------------------------------------
+How can you use the commands git log and git diff to view the history of files?
+
+git log                                          to view the log
+git diff (first commit id) (second commit id)    to view difference between files 
+
+Use q to quit git log. Edit > Mark > Enter to copy commit ids. Insert to paste.
+
+-----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

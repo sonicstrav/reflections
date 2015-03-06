@@ -1,0 +1,60 @@
+To copy from git bash: Edit > Mark > drag a box on the text > Enter
+To paste into git bash: Insert key
+
+Quick Edit mode: Copy: Select > right click Paste: right click
+Clear the line: Ctrl + U
+Undo: Ctrl + _
+Quit: q
+
+Make a copy of an entire Git repository, including the history, onto your own computer
+------------------------------
+git clone (url of repository)
+
+Compare two commits, printing each line that is present in one commit but not the other
+--------------------------
+git diff (old commit serial) (new commit serial)
+
+Get colour on the diff output
+-----------------------------
+git config  --global color.ui auto
+
+Show the commits made in this repository, starting with the most recent
+-----------
+git log
+
+Temporarily reset all files in a directory to their state at the time of a specific commit
+-----------------------------
+git checkout
+
+Create a new branch to retain commits
+-------------------------------------
+git checkout -b new_branch_name
+
+Move to home directory
+----------------------
+cd ~
+
+Move file from one directory to another
+---------------------------------------
+mv (old location of file) (new location of file)
+
+See hidden files
+----------------
+ls -a
+
+Create a repository
+-------------------
+git init
+
+Status of files in the working folder
+-------------------------------------
+git status
+
+Move file to the staging area
+-----------------------------
+git add
+
+Commit files from the staging area to the repository
+----------------------------------------------------
+git commit
+
