@@ -13,6 +13,41 @@ in the staging area. Then all the files from the staging area can be committed
 together when we commit.
 --------------------------------------------------------------------------------------
 
+How can you use the staging area to make sure you have one commit per logical change?
 
+We can add all the files relevant to the logical change in the staging area and
+commit them all at the same time.
+--------------------------------------------------------------------------------------
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Keep history of experimental alterations of the program from the main branch.
+When 'context switching' - creating a new feature, fixing a bug etc. then create a
+new branch for that.
+
+Master branch is the production quality branch.
+Development and Experimental branches.
+
+--------------------------------------------------------------------------------------
+Each commit knows about its parent - a reference is stored of the commit that made the
+current commit
+
+--------------------------------------------------------------------------------------
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It merges the changes in one branch with changes in the other branch into one master 
+branch.
+
+--------------------------------------------------------------------------------------
+merge conflicts are marked
+<<<<<<<<<< HEAD
+|||||||||| merged common ancestors
+>>>>>>>>>> master
+
+--------------------------------------------------------------------------------------
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Best to do merges manually where there is any doubt which version of code in the 
+merge conflict is the right one
 
 

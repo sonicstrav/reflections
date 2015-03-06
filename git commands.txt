@@ -14,6 +14,12 @@ Compare two commits, printing each line that is present in one commit but not th
 --------------------------
 git diff (old commit serial) (new commit serial)
 
+git diff             this compares files in the working directory with the staging
+                     area (has no arguments) 
+
+git diff --staged    this compares files between the most recent commit and the
+                     staging area
+
 Get colour on the diff output
 -----------------------------
 git config  --global color.ui auto
@@ -22,13 +28,11 @@ Show the commits made in this repository, starting with the most recent
 -----------------------------------------------------------------------
 git log
 
+git log --graph --decorate --oneline (list branches)   
+
 Temporarily reset all files in a directory to their state at the time of a specific commit
 -----------------------------
 git checkout
-
-Create a new branch to retain commits
--------------------------------------
-git checkout -b new_branch_name
 
 Move to home directory
 ----------------------
@@ -58,3 +62,38 @@ Commit files from the staging area to the repository
 ----------------------------------------------------
 git commit
 
+To discard any changes in the working directory and staging area
+----------------------------------------------------------------
+git reset --hard
+
+View current branches
+---------------------
+git branch
+
+Create a new branch
+-------------------
+git branch (branch name)
+
+Switches to the specified branch and updates the working directory
+------------------------------------------------------------------
+git checkout (branch name)
+ 
+Create a new branch that retains commits created
+------------------------------------------------
+git checkout -b (new branch name)
+
+Equivalent to 
+git branch (new branch name)
+git checkout (new branch name)
+
+Merge branches
+------------------
+git merge (1st branch) (2nd branch)
+
+Changes introduced to a commit compared to its parent
+-----------------------------------------------------
+git show commit_id
+
+Delete a branch
+---------------
+git branch -d (branch name)
