@@ -1,0 +1,18 @@
+GitHub - remote repository called a 'remote'
+No working directory or staging area on GitHub
+
+GitHub does not allow cloning from local to remote
+Create a new repository on GitHub then push to the remote
+
+We can push and pull data from the remote
+
+-----------------------------------------------------------
+Creating a new repository on GitHub
+
+1) Click the + in the top bar > New Repository
+2) Name the repository
+3) If commits in the repository already no need to tick initialize repository
+4) In git bash type
+		git remote add (name) (url)  if only one remote it is called origin
+
+	

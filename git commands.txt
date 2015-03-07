@@ -97,3 +97,16 @@ git show commit_id
 Delete a branch
 ---------------
 git branch -d (branch name)
+
+View current remotes
+--------------------
+git remote
+git remote -v  more information
+
+Add remote
+----------
+git remote add (name) (url)
+
+Push to remote
+--------------
+git push origin master   (remote) (local branch)
