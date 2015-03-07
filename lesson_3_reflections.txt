@@ -21,4 +21,14 @@ Creating a new repository on GitHub
 Create a new file in GitHub
 
 1) Click the + next to the repository name
-	
+
+----------------------------------------------------------
+When would you want to use a remote repository rather than keeping all your work local?
+
+Required for collaboration on a project or to access from another computer
+----------------------------------------------------------
+After editing on GitHub the local and remote repositories are not in sync. The 
+remote master will need to be pulled back to the local repository. This will 
+bring the new commits to local and update the local master. To get it run
+git pull
+
