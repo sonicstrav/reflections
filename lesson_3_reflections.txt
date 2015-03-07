@@ -14,5 +14,8 @@ Creating a new repository on GitHub
 3) If commits in the repository already no need to tick initialize repository
 4) In git bash type
 		git remote add (name) (url)  if only one remote it is called origin
+----------------------------------------------------------
+When would you want to use a remote repository rather than keeping all your work local?
 
+Required for collaboration on a project or to access from another computer
 	
