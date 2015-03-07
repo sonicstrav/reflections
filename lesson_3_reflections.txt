@@ -27,8 +27,32 @@ When would you want to use a remote repository rather than keeping all your work
 
 Required for collaboration on a project or to access from another computer
 ----------------------------------------------------------
+
 After editing on GitHub the local and remote repositories are not in sync. The 
 remote master will need to be pulled back to the local repository. This will 
 bring the new commits to local and update the local master. To get it run
 git pull
+----------------------------------------------------------
+
+Forking a repository
+
+Clone another person's repository (A) to the local repository (B) - this will
+automatically set the other person's repository (A) as a remote. Then create a new
+repository (C) on GitHub and push the local repository (B) to the new repository
+(C). Other people (D) can clone this repository (C) but there is no recognition
+of the author of the content from the original repository (A).
+
+Forking a repository allows you to make a copy of someone's repository directly
+on the GitHub servers which is much less complicated. This just requires a 
+single click. This can be pulled down to the local machine to create a new 
+version.
+
+Use git clone (url) to clone the repository to the the local repository
+
+To allow another user to collaborate on the project they will need permission
+to push to the remote. 
+
+On the GitHub page:
+Settings > Collaborators > Add GitHub username of the user
+
 
