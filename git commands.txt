@@ -110,3 +110,7 @@ git remote add (name) (url)
 Push to remote
 --------------
 git push origin master   (remote) (local branch)
+
+Pull to remote
+--------------
+git pull (remote) (branch)
