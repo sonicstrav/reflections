@@ -14,5 +14,11 @@ Creating a new repository on GitHub
 3) If commits in the repository already no need to tick initialize repository
 4) In git bash type
 		git remote add (name) (url)  if only one remote it is called origin
+5) To push the local master branch to the remote type
+		git push origin master 
+		
+-----------------------------------------------------------
+Create a new file in GitHub
 
+1) Click the + next to the repository name
 	
