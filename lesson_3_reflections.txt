@@ -54,5 +54,14 @@ to push to the remote.
 
 On the GitHub page:
 Settings > Collaborators > Add GitHub username of the user
+-----------------------------------------------------------
 
+Updating local copies of remote branches
+
+git fetch origin   
+will update all the local copies of every branch of the origin remote
+
+Inspect the local copies by running 
+git log origin/master          
+or git diff origin/master master
 

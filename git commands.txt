@@ -116,4 +116,13 @@ Pull to remote
 --------------
 git pull (remote) (branch)
 
+Update only the local copy of the remote branch
+------------------------------------------
+git fetch 
+
+Equivalent to 
+git fetch origin
+git merge master origin/master
+
+
 
